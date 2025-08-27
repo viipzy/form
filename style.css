@@ -50,7 +50,7 @@ main{
 }
 .welcome h2{
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 1.7rem;
     margin: 15vh 0 0 0;
     font-weight: 700;
 }
