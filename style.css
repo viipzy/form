@@ -16,12 +16,12 @@ main{
     width: 40%;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 50vh ;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     font-family: "montserrat";
-    height: auto;
+    
 }
 
 
@@ -171,20 +171,21 @@ input{
     font-size: 14px;
 }
 
-
+/* tab screen */
 @media (max-width: 992px) {
   main {
-    width: 95%;
+    width: 100%;
     margin: 10% auto;
     flex-direction: column;
-    height: auto;
+    height: 90vh;
   }
   .left, .right {
-    width: 100%;
+    width: 150%;
     border-radius: 0;
   }
   .welcome h2 {
     margin: 20px 0 10px 0;
+    font-size: 1rem;
   }
 }
 
