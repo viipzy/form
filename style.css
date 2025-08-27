@@ -20,6 +20,7 @@ main{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    font-family: "montserrat";
 }
 
 
@@ -50,7 +51,7 @@ main{
 .welcome h2{
     text-transform: uppercase;
     font-size: 30px;
-    margin: 60% 0 0 0;
+    margin: 15vh 0 0 0;
     font-weight: 700;
 }
 .welcome p{
@@ -167,4 +168,41 @@ input{
     margin-top: 20px;
     width: 60%;
     font-size: 14px;
+}
+
+
+@media (max-width: 992px) {
+  main {
+    width: 95%;
+    margin: 10% auto;
+    flex-direction: column;
+    height: auto;
+  }
+  .left, .right {
+    width: 100%;
+    border-radius: 0;
+  }
+  .welcome h2 {
+    margin: 20px 0 10px 0;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  .welcome h2 {
+    font-size: 1.5rem;
+  }
+  .form {
+    width: 100%;
+  }
+  .socials div {
+    width: 25px;
+    height: 25px;
+  }
 }
