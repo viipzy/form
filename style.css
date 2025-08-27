@@ -21,6 +21,7 @@ main{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     font-family: "montserrat";
+    height: auto;
 }
 
 
@@ -50,7 +51,7 @@ main{
 }
 .welcome h2{
     text-transform: uppercase;
-    font-size: 1.7rem;
+    font-size: 30px;
     margin: 15vh 0 0 0;
     font-weight: 700;
 }
